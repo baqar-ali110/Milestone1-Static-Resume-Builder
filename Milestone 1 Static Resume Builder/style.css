@@ -1,0 +1,107 @@
+/* Body Styling */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Resume Container */
+.resume-container {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+}
+
+/* Profile Picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px cyan, 0px 0px 20px cyan, 0px 0px 40px cyan, 0px 0px 80px cyan;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: #e63946;
+    border-bottom: 2px solid #e63946;
+}
+
+/* Right Section */
+.right-section {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+/* Button Styling */
+.flex{
+    display: flex;
+    justify-content: center;
+}
+button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow:0px 0px yellow, 0px 0px 30px yellow;
+}
+
+/* Hover Effect with Bounce */
+button:hover {
+    background-color: 0px 0px cyan, 0px 0px 20px cyan;
+    transform: translateY(-5px) scale(1.05); /* Slight bounce up and scale */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
